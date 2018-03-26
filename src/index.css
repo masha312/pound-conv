@@ -1,0 +1,94 @@
+body {
+  margin: 20px;
+  padding: 0;
+  font-family: sans-serif;
+}
+* {
+  font-family: Calibri, sans-serif;
+  letter-spacing: 1px;
+}
+button {
+  height: 30px;
+  margin-right: 5px;
+}
+
+input {
+  height: 50px;
+  width: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: black;
+  background-color: none;
+  border: none;
+  text-align: center;
+  border-radius: 50px;
+  position: relative;
+  top: 2px;
+  box-shadow: 2px 4px 15px -2px rgba(0, 0, 0, 0.281);
+}
+
+input:focus {
+  outline: none;
+}
+
+#container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#display {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 20px;
+  width: 99%;
+}
+
+.pounds {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 200px;
+  background: linear-gradient(to bottom right, rgb(0, 110, 153), rgb(255, 6, 180)) ;
+  color: white;
+  border-radius: 200px;
+  margin: 10px;
+  box-shadow: 5px 8px 15px -2px rgba(0, 0, 0, 0.281);
+}
+
+.units {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  width: 150px;
+  color: white;
+  border-radius: 200px;
+  margin: 10px;
+  box-shadow: 5px 8px 15px -2px rgba(0, 0, 0, 0.281);
+}
+
+.grams {
+  background: linear-gradient(to top, rgb(255, 5, 130), rgb(245, 111, 49)) ;
+}
+
+.ounces {
+  background: linear-gradient(to left, rgb(255, 5, 130), rgb(245, 111, 49)) ;
+}
+
+.tons {
+  background: linear-gradient(to top left, rgb(255, 5, 130), rgb(245, 111, 49)) ;
+}
+
+
+
